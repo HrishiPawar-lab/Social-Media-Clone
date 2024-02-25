@@ -1,0 +1,17 @@
+.closeFriends {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.closeFriends img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.closeFriendsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
