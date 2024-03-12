@@ -11,7 +11,7 @@ const postRoute = require("./routes/posts.js");
 dotenv.config();
 
 mongoose.connect(
-  process.env.MONGO_URL,
+  "mongodb+srv://hrishi2298:hrishikesh2202@cluster0.lxjkxep.mongodb.net/social-media?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("Connected to MongoDB");
