@@ -1,0 +1,33 @@
+.profileImage {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  border: 8px solid white;
+  border-radius: 50%;
+  transform: translate(-50%, -100%);
+}
+.profileImage img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.coverImage {
+  position: relative;
+  margin-bottom: 70px;
+  height: 400px;
+}
+.coverImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.user {
+  margin-bottom: 50px;
+}
+.userDetails {
+  text-align: center;
+}

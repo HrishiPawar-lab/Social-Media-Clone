@@ -1,0 +1,39 @@
+.homeContainer {
+  min-height: calc(100vh - 70px);
+  padding-inline: 30px;
+  display: flex;
+  overflow-y: auto;
+  margin-top: 70px;
+}
+
+.homeContainer .homeSidebar {
+  padding: 20px;
+  flex: 2;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.homeContainer .homeFeed {
+  flex: 7;
+  height: 100vh;
+  overflow-y: auto;
+}
+.homeContainer .homeRighsideBar {
+  flex: 3;
+}
+
+/* custom scrollbar */
+.homeContainer .homeSidebar::-webkit-scrollbar {
+  width: 18px;
+}
+
+.homeContainer .homeSidebar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.homeContainer .homeSidebar::-webkit-scrollbar-thumb {
+  background-color: #c3c3c3;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}

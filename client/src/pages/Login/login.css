@@ -1,0 +1,57 @@
+.loginbox {
+  width: 30%;
+  height: 300px;
+  gap: 20px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginInBoxLeft {
+  width: 100%;
+}
+.loginInBoxRight {
+  width: 100%;
+}
+
+.loginInBoxLeft .logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: royalblue;
+}
+
+.loginWrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+oform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
