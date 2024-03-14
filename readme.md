@@ -28,5 +28,5 @@ To run this app locally, follow these steps:
 4. Start the frontend development server by running `npm start` in the `frontend` directory.
 5. Open your browser and navigate to `http://localhost:5173` to view the app.
 
-## Folder Structure
+
 
